@@ -23,7 +23,7 @@ const EquipmentCategory = () => {
             url: `https://exercisedb.p.rapidapi.com/exercises/equipment/${id}`,
             params: {limit: '50'},
             headers: {
-              'X-RapidAPI-Key': 'ae40549393msh0c35372c617b281p103ddcjsn0f4a9ee43ff0',
+              'X-RapidAPI-Key': 'YOUR PERSONALISED KEY HERE',
               'X-RapidAPI-Host': 'exercisedb.p.rapidapi.com'
             }
         };

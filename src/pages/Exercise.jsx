@@ -1,7 +1,6 @@
 import axios from 'axios';
 import React, { useEffect, useState } from 'react'
 import { useParams } from 'react-router-dom';
-import { FaRegDotCircle } from "react-icons/fa";
 import '../styles/Exercise.css'
 
 const Exercise = () => {
@@ -23,7 +22,7 @@ const Exercise = () => {
         method: 'GET',
         url: `https://exercisedb.p.rapidapi.com/exercises/exercise/${id}`,
         headers: {
-          'X-RapidAPI-Key': 'ae40549393msh0c35372c617b281p103ddcjsn0f4a9ee43ff0',
+          'X-RapidAPI-Key': 'YOUR PERSONALISED KEY HERE',
           'X-RapidAPI-Host': 'exercisedb.p.rapidapi.com'
       }
     };
@@ -54,7 +53,7 @@ const Exercise = () => {
         sort: 'r'
       },
       headers: {
-        'X-RapidAPI-Key': 'ae40549393msh0c35372c617b281p103ddcjsn0f4a9ee43ff0',
+        'X-RapidAPI-Key': 'YOUR PERSONALISED KEY HERE',
         'X-RapidAPI-Host': 'youtube-search-and-download.p.rapidapi.com'
       }
     };

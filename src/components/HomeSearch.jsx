@@ -29,8 +29,8 @@ const HomeSearch = () => {
     method: 'GET',
     url: 'https://exercisedb.p.rapidapi.com/exercises/bodyPartList',
     headers: {
-      'X-RapidAPI-Key': 'ae40549393msh0c35372c617b281p103ddcjsn0f4a9ee43ff0',
-      'X-RapidAPI-Host': 'exercisedb.p.rapidapi.com'
+      'X-RapidAPI-Key': 'YOUR PERSONALISED KEY HERE',
+      'X-RapidAPI-Host': 'exercisedb.p.rapidapi.com',
     }
   };
 
@@ -38,7 +38,7 @@ const HomeSearch = () => {
     method: 'GET',
     url: 'https://exercisedb.p.rapidapi.com/exercises/equipmentList',
     headers: {
-      'X-RapidAPI-Key': 'ae40549393msh0c35372c617b281p103ddcjsn0f4a9ee43ff0',
+      'X-RapidAPI-Key': 'YOUR PERSONALISED KEY HERE',
       'X-RapidAPI-Host': 'exercisedb.p.rapidapi.com'
     }
   };
